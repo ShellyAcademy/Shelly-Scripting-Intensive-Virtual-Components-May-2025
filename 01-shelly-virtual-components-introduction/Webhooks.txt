@@ -1,0 +1,21 @@
+// Turn on all lights
+http://127.0.0.1/rpc/Switch.Set?id=0&on=true
+http://192.168.10.176/rpc/Switch.Set?id=0&on=true
+
+// Turn off lights
+http://192.168.10.176/rpc/Switch.Set?id=0&on=false
+
+// Wall display button single push
+http://192.168.10.176/rpc/Button.Trigger?id=200&event=single_push
+
+// Double push
+http://192.168.10.176/rpc/Button.Trigger?id=200&event=double_push
+
+// Temp change
+http://192.168.10.176/rpc/Number.Set?id=200&value=$value
+
+// Temperature change
+http://192.168.10.176/rpc/Number.Set?id=201&value=$temperature
+
+// Humidity change
+http://192.168.10.176/rpc/Number.Set?id=202&value=$humidity
