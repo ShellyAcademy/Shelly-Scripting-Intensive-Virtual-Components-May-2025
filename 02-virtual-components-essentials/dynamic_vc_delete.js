@@ -1,0 +1,1 @@
+Shelly.call("Virtual.Delete", { key: "number:256" });
