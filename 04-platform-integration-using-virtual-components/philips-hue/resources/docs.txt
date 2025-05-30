@@ -1,0 +1,3 @@
+https://developers.meethue.com/develop/get-started-2/
+https://www.burgestrand.se/hue-api/
+https://www.niwa.nu/2013/05/math-behind-colorspace-conversions-rgb-hsl/
